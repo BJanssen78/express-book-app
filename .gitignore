@@ -1,0 +1,6 @@
+
+# Sentry Auth Token
+.sentryclirc
+
+.env
+token.txt

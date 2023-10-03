@@ -1,0 +1,904 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "isbn": "9780061120084",
+      "pages": 336,
+      "available": true,
+      "genre": "Fiction"
+    },
+    {
+      "id": "2",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "isbn": "9780743273565",
+      "pages": 180,
+      "available": true,
+      "genre": "Fiction"
+    },
+    {
+      "id": "3",
+      "title": "1984",
+      "author": "George Orwell",
+      "isbn": "9780451524935",
+      "pages": 328,
+      "available": true,
+      "genre": "Fiction"
+    },
+    {
+      "id": "4",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "isbn": "9780141439518",
+      "pages": 480,
+      "available": true,
+      "genre": "Fiction"
+    },
+    {
+      "id": "5",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "isbn": "9780316769174",
+      "pages": 234,
+      "available": true,
+      "genre": "Fiction"
+    },
+    {
+      "id": "6",
+      "title": "To Kill a Kingdom",
+      "author": "Alexandra Christo",
+      "isbn": "9781250112682",
+      "pages": 368,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "7",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "isbn": "9780547928227",
+      "pages": 310,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "8",
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "isbn": "9780618645619",
+      "pages": 1178,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "9",
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "isbn": "9780590353427",
+      "pages": 320,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "10",
+      "title": "Harry Potter and the Chamber of Secrets",
+      "author": "J.K. Rowling",
+      "isbn": "9780439064866",
+      "pages": 352,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "11",
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "author": "J.K. Rowling",
+      "isbn": "9780439136365",
+      "pages": 464,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "12",
+      "title": "Harry Potter and the Goblet of Fire",
+      "author": "J.K. Rowling",
+      "isbn": "9780439139601",
+      "pages": 752,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "13",
+      "title": "Harry Potter and the Order of the Phoenix",
+      "author": "J.K. Rowling",
+      "isbn": "9780439358071",
+      "pages": 870,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "14",
+      "title": "Harry Potter and the Half-Blood Prince",
+      "author": "J.K. Rowling",
+      "isbn": "9780439785969",
+      "pages": 652,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "15",
+      "title": "Harry Potter and the Deathly Hallows",
+      "author": "J.K. Rowling",
+      "isbn": "9780545139700",
+      "pages": 784,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "16",
+      "title": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "isbn": "9780439023481",
+      "pages": 374,
+      "available": true,
+      "genre": "Science Fiction"
+    },
+    {
+      "id": "17",
+      "title": "Catching Fire",
+      "author": "Suzanne Collins",
+      "isbn": "9780439023498",
+      "pages": 391,
+      "available": true,
+      "genre": "Science Fiction"
+    },
+    {
+      "id": "18",
+      "title": "Mockingjay",
+      "author": "Suzanne Collins",
+      "isbn": "9780439023511",
+      "pages": 390,
+      "available": true,
+      "genre": "Science Fiction"
+    },
+    {
+      "id": "19",
+      "title": "Divergent",
+      "author": "Veronica Roth",
+      "isbn": "9780062024039",
+      "pages": 487,
+      "available": true,
+      "genre": "Science Fiction"
+    },
+    {
+      "id": "20",
+      "title": "Insurgent",
+      "author": "Veronica Roth",
+      "isbn": "9780062024053",
+      "pages": 525,
+      "available": true,
+      "genre": "Science Fiction"
+    },
+    {
+      "id": "21",
+      "title": "Allegiant",
+      "author": "Veronica Roth",
+      "isbn": "9780062024060",
+      "pages": 526,
+      "available": true,
+      "genre": "Science Fiction"
+    },
+    {
+      "id": "22",
+      "title": "The Maze Runner",
+      "author": "James Dashner",
+      "isbn": "9780385737951",
+      "pages": 384,
+      "available": true,
+      "genre": "Science Fiction"
+    },
+    {
+      "id": "23",
+      "title": "The Scorch Trials",
+      "author": "James Dashner",
+      "isbn": "9780385738767",
+      "pages": 360,
+      "available": true,
+      "genre": "Science Fiction"
+    },
+    {
+      "id": "24",
+      "title": "The Death Cure",
+      "author": "James Dashner",
+      "isbn": "9780385738781",
+      "pages": 336,
+      "available": true,
+      "genre": "Science Fiction"
+    },
+    {
+      "id": "25",
+      "title": "The Fault in Our Stars",
+      "author": "John Green",
+      "isbn": "9780525478812",
+      "pages": 318,
+      "available": true,
+      "genre": "Young Adult"
+    },
+    {
+      "id": "26",
+      "title": "Looking for Alaska",
+      "author": "John Green",
+      "isbn": "9780525475064",
+      "pages": 221,
+      "available": true,
+      "genre": "Young Adult"
+    },
+    {
+      "id": "27",
+      "title": "Paper Towns",
+      "author": "John Green",
+      "isbn": "9780525478188",
+      "pages": 305,
+      "available": true,
+      "genre": "Young Adult"
+    },
+    {
+      "id": "28",
+      "title": "An Abundance of Katherines",
+      "author": "John Green",
+      "isbn": "9780142410707",
+      "pages": 229,
+      "available": true,
+      "genre": "Young Adult"
+    },
+    {
+      "id": "29",
+      "title": "Turtles All the Way Down",
+      "author": "John Green",
+      "isbn": "9780525555360",
+      "pages": 286,
+      "available": true,
+      "genre": "Young Adult"
+    },
+    {
+      "id": "30",
+      "title": "The Book Thief",
+      "author": "Markus Zusak",
+      "isbn": "9780375842207",
+      "pages": 552,
+      "available": true,
+      "genre": "Historical Fiction"
+    },
+    {
+      "id": "31",
+      "title": "All the Light We Cannot See",
+      "author": "Anthony Doerr",
+      "isbn": "9781501173219",
+      "pages": 531,
+      "available": true,
+      "genre": "Historical Fiction"
+    },
+    {
+      "id": "32",
+      "title": "The Nightingale",
+      "author": "Kristin Hannah",
+      "isbn": "9780312577223",
+      "pages": 440,
+      "available": true,
+      "genre": "Historical Fiction"
+    },
+    {
+      "id": "33",
+      "title": "A Gentleman in Moscow",
+      "author": "Amor Towles",
+      "isbn": "9780143110439",
+      "pages": 462,
+      "available": true,
+      "genre": "Historical Fiction"
+    },
+    {
+      "id": "34",
+      "title": "The Kite Runner",
+      "author": "Khaled Hosseini",
+      "isbn": "9781594631931",
+      "pages": 391,
+      "available": true,
+      "genre": "Historical Fiction"
+    },
+    {
+      "id": "35",
+      "title": "The Help",
+      "author": "Kathryn Stockett",
+      "isbn": "9780399155345",
+      "pages": 544,
+      "available": true,
+      "genre": "Historical Fiction"
+    },
+    {
+      "id": "36",
+      "title": "Educated",
+      "author": "Tara Westover",
+      "isbn": "9780399590504",
+      "pages": 334,
+      "available": true,
+      "genre": "Biography"
+    },
+    {
+      "id": "37",
+      "title": "Bossypants",
+      "author": "Tina Fey",
+      "isbn": "9780316056878",
+      "pages": 277,
+      "available": true,
+      "genre": "Biography"
+    },
+    {
+      "id": "38",
+      "title": "The Glass Castle",
+      "author": "Jeannette Walls",
+      "isbn": "9780743247542",
+      "pages": 288,
+      "available": true,
+      "genre": "Biography"
+    },
+    {
+      "id": "39",
+      "title": "Steve Jobs",
+      "author": "Walter Isaacson",
+      "isbn": "9781451648539",
+      "pages": 656,
+      "available": true,
+      "genre": "Biography"
+    },
+    {
+      "id": "40",
+      "title": "Becoming",
+      "author": "Michelle Obama",
+      "isbn": "9781524763138",
+      "pages": 448,
+      "available": true,
+      "genre": "Biography"
+    },
+    {
+      "id": "41",
+      "title": "Sapiens",
+      "author": "Yuval Noah Harari",
+      "isbn": "9780062316110",
+      "pages": 443,
+      "available": true,
+      "genre": "Non-Fiction"
+    },
+    {
+      "id": "42",
+      "title": "Educated",
+      "author": "Tara Westover",
+      "isbn": "9780399590504",
+      "pages": 334,
+      "available": true,
+      "genre": "Non-Fiction"
+    },
+    {
+      "id": "43",
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "isbn": "9780374533557",
+      "pages": 512,
+      "available": true,
+      "genre": "Non-Fiction"
+    },
+    {
+      "id": "44",
+      "title": "The Immortal Life of Henrietta Lacks",
+      "author": "Rebecca Skloot",
+      "isbn": "9781400052189",
+      "pages": 400,
+      " available": true,
+      "genre": "Non-Fiction"
+    },
+    {
+      "id": "45",
+      "title": "Bad Blood",
+      "author": "John Carreyrou",
+      "isbn": "9781524731656",
+      "pages": 352,
+      "available": true,
+      "genre": "Non-Fiction"
+    },
+    {
+      "id": "46",
+      "title": "The Subtle Art of Not Giving a F*ck",
+      "author": "Mark Manson",
+      "isbn": "9780062457714",
+      "pages": 212,
+      "available": true,
+      "genre": "Self-Help"
+    },
+    {
+      "id": "47",
+      "title": "You Are a Badass",
+      "author": "Jen Sincero",
+      "isbn": "9780762447695",
+      "pages": 256,
+      "available": true,
+      "genre": "Self-Help"
+    },
+    {
+      "id": "48",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "isbn": "9780735211292",
+      "pages": 320,
+      "available": true,
+      "genre": "Self-Help"
+    },
+    {
+      "id": "49",
+      "title": "The 7 Habits of Highly Effective People",
+      "author": "Stephen R. Covey",
+      "isbn": "9781982137274",
+      "pages": 391,
+      "available": true,
+      "genre": "Self-Help"
+    },
+    {
+      "id": "50",
+      "title": "Daring Greatly",
+      "author": "Brené Brown",
+      "isbn": "9781592408412",
+      "pages": 320,
+      "available": true,
+      "genre": "Self-Help"
+    },
+    {
+      "id": "51",
+      "title": "The Girl on the Train",
+      "author": "Paula Hawkins",
+      "isbn": "9781594634024",
+      "pages": 336,
+      "available": true,
+      "genre": "Mystery/Thriller"
+    },
+    {
+      "id": "52",
+      "title": "Gone Girl",
+      "author": "Gillian Flynn",
+      "isbn": "9780307588371",
+      "pages": 432,
+      "available": true,
+      "genre": "Mystery/Thriller"
+    },
+    {
+      "id": "53",
+      "title": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "isbn": "9781250301697",
+      "pages": 336,
+      "available": true,
+      "genre": "Mystery/Thriller"
+    },
+    {
+      "id": "54",
+      "title": "The Reversal",
+      "author": "Michael Connelly",
+      "isbn": "9780316069489",
+      "pages": 400,
+      "available": true,
+      "genre": "Mystery/Thriller"
+    },
+    {
+      "id": "55",
+      "title": "The Girl with the Dragon Tattoo",
+      "author": "Stieg Larsson",
+      "isbn": "9780307454546",
+      "pages": 672,
+      "available": true,
+      "genre": "Mystery/Thriller"
+    },
+    {
+      "id": "56",
+      "title": "Big Little Lies",
+      "author": "Liane Moriarty",
+      "isbn": "9780399587191",
+      "pages": 460,
+      "available": true,
+      "genre": "Mystery/Thriller"
+    },
+    {
+      "id": "57",
+      "title": "Jurassic Park",
+      "author": "Michael Crichton",
+      "isbn": "9780345538987",
+      "pages": 448,
+      "available": true,
+      "genre": "Science Fiction"
+    },
+    {
+      "id": "58",
+      "title": "The Andromeda Strain",
+      "author": "Michael Crichton",
+      "isbn": "9781101916312",
+      "pages": 304,
+      "available": true,
+      "genre": "Science Fiction"
+    },
+    {
+      "id": "59",
+      "title": "Prey",
+      "author": "Michael Crichton",
+      "isbn": "9780061703089",
+      "pages": 512,
+      "available": true,
+      "genre": "Science Fiction"
+    },
+    {
+      "id": "60",
+      "title": "Timeline",
+      "author": "Michael Crichton",
+      "isbn": "9780345417624",
+      "pages": 512,
+      "available": true,
+      "genre": "Science Fiction"
+    },
+    {
+      "id": "61",
+      "title": "Sphere",
+      "author": "Michael Crichton",
+      "isbn": "9780061990048",
+      "pages": 369,
+      "available": true,
+      "genre": "Science Fiction"
+    },
+    {
+      "id": "62",
+      "title": "Eaters of the Dead",
+      "author": "Michael Crichton",
+      "isbn": "9780345354616",
+      "pages": 304,
+      "available": true,
+      "genre": "Science Fiction"
+    },
+    {
+      "id": "63",
+      "title": "The Martian",
+      "author": "Andy Weir",
+      "isbn": "9780553418026",
+      "pages": 369,
+      "available": true,
+      "genre": "Science Fiction"
+    },
+    {
+      "id": "64",
+      "title": "Artemis",
+      "author": "Andy Weir",
+      "isbn": "9780553448122",
+      "pages": 305,
+      "available": true,
+      "genre": "Science Fiction"
+    },
+    {
+      "id": "65",
+      "title": "Dark Matter",
+      "author": "Blake Crouch",
+      "isbn": "9781101904241",
+      "pages": 352,
+      "available": true,
+      "genre": "Science Fiction"
+    },
+    {
+      "id": "66",
+      "title": "Recursion",
+      "author": "Blake Crouch",
+      "isbn": "9781524759781",
+      "pages": 336,
+      "available": true,
+      "genre": "Science Fiction"
+    },
+    {
+      "id": "67",
+      "title": "The Passage",
+      "author": "Justin Cronin",
+      "isbn": "9780345504968",
+      "pages": 784,
+      "available": true,
+      "genre": "Science Fiction"
+    },
+    {
+      "id": "68",
+      "title": "The Twelve",
+      "author": "Justin Cronin",
+      "isbn": "9780345504982",
+      "pages": 592,
+      "available": true,
+      "genre": "Science Fiction"
+    },
+    {
+      "id": "69",
+      "title": "The City of Mirrors",
+      "author": "Justin Cronin",
+      "isbn": "9780345505002",
+      "pages": 602,
+      "available": true,
+      "genre": "Science Fiction"
+    },
+    {
+      "id": "70",
+      "title": "The Name of the Wind",
+      "author": "Patrick Rothfuss",
+      "isbn": "9780756404741",
+      "pages": 722,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "71",
+      "title": "The Wise Man's Fear",
+      "author": "Patrick Rothfuss",
+      "isbn": "9780756407919",
+      "pages": 994,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "72",
+      "title": "The Slow Regard of Silent Things",
+      "author": "Patrick Rothfuss",
+      "isbn": "9780756411329",
+      "pages": 159,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "73",
+      "title": "The Lies of Locke Lamora",
+      "author": "Scott Lynch",
+      "isbn": "9780553588941",
+      "pages": 722,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "74",
+      "title": "Red Seas Under Red Skies",
+      "author": "Scott Lynch",
+      "isbn": "9780553588958",
+      "pages": 760,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "75",
+      "title": "The Republic of Thieves",
+      "author": "Scott Lynch",
+      "isbn": "9780553588965",
+      "pages": 720,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "76",
+      "title": "The Blade Itself",
+      "author": "Joe Abercrombie",
+      "isbn": "9780316387316",
+      "pages": 533,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "77",
+      "title": "Before They Are Hanged",
+      "author": "Joe Abercrombie",
+      "isbn": "9780316387354",
+      "pages": 562,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "78",
+      "title": "Last Argument of Kings",
+      "author": "Joe Abercrombie",
+      "isbn": "9780316387408",
+      "pages": 603,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "79",
+      "title": "Gardens of the Moon",
+      "author": "Steven Erikson",
+      "isbn": "9780765348784",
+      "pages": 657,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "80",
+      "title": "Deadhouse Gates",
+      "author": "Steven Erikson",
+      "isbn": "9780765348784",
+      "pages": 1008,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "81",
+      "title": "Memories of Ice",
+      "author": "Steven Erikson",
+      "isbn": "9780765348784",
+      "pages": 1184,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "82",
+      "title": "The Way of Kings",
+      "author": "Brandon Sanderson",
+      "isbn": "9780765365279",
+      "pages": 1008,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "83",
+      "title": "Words of Radiance",
+      "author": "Brandon Sanderson",
+      "isbn": "9780765365286",
+      "pages": 1088,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "84",
+      "title": "Oathbringer",
+      "author": "Brandon Sanderson",
+      "isbn": "9780765326379",
+      "pages": 1248,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "85",
+      "title": "Mistborn: The Final Empire",
+      "author": "Brandon Sanderson",
+      "isbn": "9780765311788",
+      "pages": 541,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "86",
+      "title": "Mistborn: The Well of Ascension",
+      "author": "Brandon Sanderson",
+      "isbn": "9780765316882",
+      "pages": 796,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "87",
+      "title": "Mistborn: The Hero of Ages",
+      "author": "Brandon Sanderson",
+      "isbn": "9780765316899",
+      "pages": 724,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "88",
+      "title": "American Gods",
+      "author": "Neil Gaiman",
+      "isbn": "9780380789030",
+      "pages": 635,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "89",
+      "title": "Neverwhere",
+      "author": "Neil Gaiman",
+      "isbn": "9780060557812",
+      "pages": 400,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "90",
+      "title": "Stardust",
+      "author": "Neil Gaiman",
+      "isbn": "9780061689246",
+      "pages": 288,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "91",
+      "title": "The Ocean at the End of the Lane",
+      "author": "Neil Gaiman",
+      "isbn": "9780062255655",
+      "pages": 181,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "92",
+      "title": "Good Omens",
+      "author": "Neil Gaiman and Terry Pratchett",
+      "isbn": "9780060853983",
+      "pages": 412,
+      "available": true,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "93",
+      "title": "Never Let Me Go",
+      "author": "Kazuo Ishiguro",
+      "isbn": "9781400078776",
+      "pages": 288,
+      "available": true,
+      "genre": "Science Fiction"
+    },
+    {
+      "id": "94",
+      "title": "The Remains of the Day",
+      "author": "Kazuo Ishiguro",
+      "isbn": "9780679731726",
+      "pages": 245,
+      "available": true,
+      "genre": "Fiction"
+    },
+    {
+      "id": "95",
+      "title": "Klara and the Sun",
+      "author": "Kazuo Ishiguro",
+      "isbn": "9780593318171",
+      "pages": 303,
+      "available": true,
+      "genre": "Fiction"
+    },
+    {
+      "id": "96",
+      "title": "An Artist of the Floating World",
+      "author": "Kazuo Ishiguro",
+      "isbn": "9780394759760",
+      "pages": 206,
+      "available": true,
+      "genre": "Fiction"
+    },
+    {
+      "id": "97",
+      "title": "Scythe",
+      "author": "Neal Shusterman",
+      "isbn": "9781442472426",
+      "pages": 435,
+      "available": true,
+      "genre": "Science Fiction"
+    },
+    {
+      "id": "98",
+      "title": "Thunderhead",
+      "author": "Neal Shusterman",
+      "isbn": "9781442472457",
+      "pages": 504,
+      "available": true,
+      "genre": "Science Fiction"
+    },
+    {
+      "id": "99",
+      "title": "The Toll",
+      "author": "Neal Shusterman",
+      "isbn": "9781481497060",
+      "pages": 625,
+      "available": true,
+      "genre": "Science Fiction"
+    },
+    {
+      "id": "100",
+      "title": "The Power of Habit",
+      "author": "Charles Duhigg",
+      "isbn": "9780812981605",
+      "pages": 371,
+      "available": true,
+      "genre": "Non-Fiction"
+    }
+  ]
+}

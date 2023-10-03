@@ -1,0 +1,804 @@
+{
+  "records": [
+    {
+      "id": "1",
+      "title": "Abbey Road",
+      "artist": "The Beatles",
+      "year": 1969,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "2",
+      "title": "The Dark Side of the Moon",
+      "artist": "Pink Floyd",
+      "year": 1973,
+      "available": true,
+      "genre": "Progressive Rock"
+    },
+    {
+      "id": "3",
+      "title": "Thriller",
+      "artist": "Michael Jackson",
+      "year": 1982,
+      "available": true,
+      "genre": "Pop"
+    },
+    {
+      "id": "4",
+      "title": "Hotel California",
+      "artist": "Eagles",
+      "year": 1976,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "5",
+      "title": "Back in Black",
+      "artist": "AC/DC",
+      "year": 1980,
+      "available": true,
+      "genre": "Hard Rock"
+    },
+    {
+      "id": "6",
+      "title": "The Wall",
+      "artist": "Pink Floyd",
+      "year": 1979,
+      "available": true,
+      "genre": "Progressive Rock"
+    },
+    {
+      "id": "7",
+      "title": "Rumors",
+      "artist": "Fleetwood Mac",
+      "year": 1977,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "8",
+      "title": "Led Zeppelin IV",
+      "artist": "Led Zeppelin",
+      "year": 1971,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "9",
+      "title": "The Beatles (White Album)",
+      "artist": "The Beatles",
+      "year": 1968,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "10",
+      "title": "Back to Black",
+      "artist": "Amy Winehouse",
+      "year": 2006,
+      "available": true,
+      "genre": "Soul"
+    },
+    {
+      "id": "11",
+      "title": "Born to Run",
+      "artist": "Bruce Springsteen",
+      "year": 1975,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "12",
+      "title": "A Night at the Opera",
+      "artist": "Queen",
+      "year": 1975,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "13",
+      "title": "Purple Rain",
+      "artist": "Prince",
+      "year": 1984,
+      "available": true,
+      "genre": "Pop"
+    },
+    {
+      "id": "14",
+      "title": "Let It Be",
+      "artist": "The Beatles",
+      "year": 1970,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "15",
+      "title": "Born to Die",
+      "artist": "Lana Del Rey",
+      "year": 2012,
+      "available": true,
+      "genre": "Pop"
+    },
+    {
+      "id": "16",
+      "title": "Hunky Dory",
+      "artist": "David Bowie",
+      "year": 1971,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "17",
+      "title": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
+      "artist": "David Bowie",
+      "year": 1972,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "18",
+      "title": "Legend",
+      "artist": "Bob Marley & The Wailers",
+      "year": 1984,
+      "available": true,
+      "genre": "Reggae"
+    },
+    {
+      "id": "19",
+      "title": "The Joshua Tree",
+      "artist": "U2",
+      "year": 1987,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "20",
+      "title": "Goodbye Yellow Brick Road",
+      "artist": "Elton John",
+      "year": 1973,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "21",
+      "title": "Born in the U.S.A.",
+      "artist": "Bruce Springsteen",
+      "year": 1984,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "22",
+      "title": "The Chronic",
+      "artist": "Dr. Dre",
+      "year": 1992,
+      "available": true,
+      "genre": "Hip Hop"
+    },
+    {
+      "id": "23",
+      "title": "Blue",
+      "artist": "Joni Mitchell",
+      "year": 1971,
+      "available": true,
+      "genre": "Folk"
+    },
+    {
+      "id": "24",
+      "title": "Rumors",
+      "artist": "Fleetwood Mac",
+      "year": 1977,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "25",
+      "title": "Court and Spark",
+      "artist": "Joni Mitchell",
+      "year": 1974,
+      "available": true,
+      "genre": "Folk"
+    },
+    {
+      "id": "26",
+      "title": "Tommy",
+      "artist": "The Who",
+      "year": 1969,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "27",
+      "title": "Hotel California",
+      "artist": "Eagles",
+      "year": 1976,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "28",
+      "title": "Who's Next",
+      "artist": "The Who",
+      "year": 1971,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "29",
+      "title": "Raising Hell",
+      "artist": "Run-D.M.C.",
+      "year": 1986,
+      "available": true,
+      "genre": "Hip Hop"
+    },
+    {
+      "id": "30",
+      "title": "Led Zeppelin II",
+      "artist": "Led Zeppelin",
+      "year": 1969,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "31",
+      "title": "Off the Wall",
+      "artist": "Michael Jackson",
+      "year": 1979,
+      "available": true,
+      "genre": "Pop"
+    },
+    {
+      "id": "32",
+      "title": "Highway to Hell",
+      "artist": "AC/DC",
+      "year": 1979,
+      "available": true,
+      "genre": "Hard Rock"
+    },
+    {
+      "id": "33",
+      "title": "Wish You Were Here",
+      "artist": "Pink Floyd",
+      "year": 1975,
+      "available": true,
+      "genre": "Progressive Rock"
+    },
+    {
+      "id": "34",
+      "title": "The Stranger",
+      "artist": "Billy Joel",
+      "year": 1977,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "35",
+      "title": "Brothers in Arms",
+      "artist": "Dire Straits",
+      "year": 1985,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "36",
+      "title": "A Love Supreme",
+      "artist": "John Coltrane",
+      "year": 1965,
+      "available": true,
+      "genre": "Jazz"
+    },
+    {
+      "id": "37",
+      "title": "Beggars Banquet",
+      "artist": "The Rolling Stones",
+      "year": 1968,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "38",
+      "title": "Blood on the Tracks",
+      "artist": "Bob Dylan",
+      "year": 1975,
+      "available": true,
+      "genre": "Folk"
+    },
+    {
+      "id": "39",
+      "title": "Sgt. Pepper's Lonely Hearts Club Band",
+      "artist": "The Beatles",
+      "year": 1967,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "40",
+      "title": "The Marshall Mathers LP",
+      "artist": "Eminem",
+      "year": 2000,
+      "available": true,
+      "genre": "Hip Hop"
+    },
+    {
+      "id": "41",
+      "title": "Off the Wall",
+      "artist": "Michael Jackson",
+      "year": 1979,
+      "available": true,
+      "genre": "Pop"
+    },
+    {
+      "id": "42",
+      "title": "Pet Sounds",
+      "artist": "The Beach Boys",
+      "year": 1966,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "43",
+      "title": "At Folsom Prison",
+      "artist": "Johnny Cash",
+      "year": 1968,
+      "available": true,
+      "genre": "Country"
+    },
+    {
+      "id": "44",
+      "title": "Born to Run",
+      "artist": "Bruce Springsteen",
+      "year": 1975,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "45",
+      "title": "Pearl",
+      "artist": "Janis Joplin",
+      "year": 1971,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "46",
+      "title": "Rumors",
+      "artist": "Fleetwood Mac",
+      "year": 1977,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "47",
+      "title": "Astral Weeks",
+      "artist": "Van Morrison",
+      "year": 1968,
+      "available": true,
+      "genre": "Folk"
+    },
+    {
+      "id": "48",
+      "title": "Bad",
+      "artist": "Michael Jackson",
+      "year": 1987,
+      "available": true,
+      "genre": "Pop"
+    },
+    {
+      "id": "49",
+      "title": "Please Please Me",
+      "artist": "The Beatles",
+      "year": 1963,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "50",
+      "title": "Let's Get It On",
+      "artist": "Marvin Gaye",
+      "year": 1973,
+      "available": true,
+      "genre": "Soul"
+    },
+    {
+      "id": "51",
+      "title": "Saturday Night Fever: The Original Movie Soundtrack Deluxe Edition",
+      "artist": "Various Artists",
+      "year": 1977,
+      "available": true,
+      "genre": "Disco"
+    },
+    {
+      "id": "52",
+      "title": "Are You Experienced",
+      "artist": "The Jimi Hendrix Experience",
+      "year": 1967,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "53",
+      "title": "Court and Spark",
+      "artist": "Joni Mitchell",
+      "year": 1974,
+      "available": true,
+      "genre": "Folk"
+    },
+    {
+      "id": "54",
+      "title": "Rumors",
+      "artist": "Fleetwood Mac",
+      "year": 1977,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "55",
+      "title": "Band on the Run",
+      "artist": "Paul McCartney & Wings",
+      "year": 1973,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "56",
+      "title": "The College Dropout",
+      "artist": "Kanye West",
+      "year": 2004,
+      "available": true,
+      "genre": "Hip Hop"
+    },
+    {
+      "id": "57",
+      "title": "Back to Black",
+      "artist": "Amy Winehouse",
+      "year": 2006,
+      "available": true,
+      "genre": "Soul"
+    },
+    {
+      "id": "58",
+      "title": "John Lennon/Plastic Ono Band",
+      "artist": "John Lennon",
+      "year": 1970,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "59",
+      "title": "Kind of Blue",
+      "artist": "Miles Davis",
+      "year": 1959,
+      "available": true,
+      "genre": "Jazz"
+    },
+    {
+      "id": "60",
+      "title": "A Night at the Opera",
+      "artist": "Queen",
+      "year": 1975,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "61",
+      "title": "Whitney Houston",
+      "artist": "Whitney Houston",
+      "year": 1985,
+      "available": true,
+      "genre": "Pop"
+    },
+    {
+      "id": "62",
+      "title": "Captain Fantastic and the Brown Dirt Cowboy",
+      "artist": "Elton John",
+      "year": 1975,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "63",
+      "title": "Disraeli Gears",
+      "artist": "Cream",
+      "year": 1967,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "64",
+      "title": "Blood on the Tracks",
+      "artist": "Bob Dylan",
+      "year": 1975,
+      "available": true,
+      "genre": "Folk"
+    },
+    {
+      "id": "65",
+      "title": "Radio",
+      "artist": "LL Cool J",
+      "year": 1985,
+      "available": true,
+      "genre": "Hip Hop"
+    },
+    {
+      "id": "66",
+      "title": "Sticky Fingers",
+      "artist": "The Rolling Stones",
+      "year": 1971,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "67",
+      "title": "Damn",
+      "artist": "Kendrick Lamar",
+      "year": 2017,
+      "available": true,
+      "genre": "Hip Hop"
+    },
+    {
+      "id": "68",
+      "title": "Parallel Lines",
+      "artist": "Blondie",
+      "year": 1978,
+      "available": true,
+      "genre": "New Wave"
+    },
+    {
+      "id": "69",
+      "title": "Every Picture Tells a Story",
+      "artist": "Rod Stewart",
+      "year": 1971,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "70",
+      "title": "A Love Supreme",
+      "artist": "John Coltrane",
+      "year": 1965,
+      "available": true,
+      "genre": "Jazz"
+    },
+    {
+      "id": "71",
+      "title": "Goodbye Yellow Brick Road",
+      "artist": "Elton John",
+      "year": 1973,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "72",
+      "title": "Rumors",
+      "artist": "Fleetwood Mac",
+      "year": 1977,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "73",
+      "title": "Blue",
+      "artist": "Joni Mitchell",
+      "year": 1971,
+      "available": true,
+      "genre": "Folk"
+    },
+    {
+      "id": "74",
+      "title": "The Eminem Show",
+      "artist": "Eminem",
+      "year": 2002,
+      "available": true,
+      "genre": "Hip Hop"
+    },
+    {
+      "id": "75",
+      "title": "Hotel California",
+      "artist": "Eagles",
+      "year": 1976,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "76",
+      "title": "The College Dropout",
+      "artist": "Kanye West",
+      "year": 2004,
+      "available": true,
+      "genre": "Hip Hop"
+    },
+    {
+      "id": "77",
+      "title": "Led Zeppelin IV",
+      "artist": "Led Zeppelin",
+      "year": 1971,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "78",
+      "title": "Synchronicity",
+      "artist": "The Police",
+      "year": 1983,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "79",
+      "title": "Hotter Than July",
+      "artist": "Stevie Wonder",
+      "year": 1980,
+      "available": true,
+      "genre": "R&B"
+    },
+    {
+      "id": "80",
+      "title": "My Beautiful Dark Twisted Fantasy",
+      "artist": "Kanye West",
+      "year": 2010,
+      "available": true,
+      "genre": "Hip Hop"
+    },
+    {
+      "id": "81",
+      "title": "Parallel Lines",
+      "artist": "Blondie",
+      "year": 1978,
+      "available": true,
+      "genre": "New Wave"
+    },
+    {
+      "id": "82",
+      "title": "Led Zeppelin II",
+      "artist": "Led Zeppelin",
+      "year": 1969,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "83",
+      "title": "Let It Bleed",
+      "artist": "The Rolling Stones",
+      "year": 1969,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "84",
+      "title": "Band on the Run",
+      "artist": "Paul McCartney & Wings",
+      "year": 1973,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "85",
+      "title": "Blood on the Tracks",
+      "artist": "Bob Dylan",
+      "year": 1975,
+      "available": true,
+      "genre": "Folk"
+    },
+    {
+      "id": "86",
+      "title": "Hotel California",
+      "artist": "Eagles",
+      "year": 1976,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "87",
+      "title": "Disraeli Gears",
+      "artist": "Cream",
+      "year": 1967,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "88",
+      "title": "Hot Rocks 1964-1971",
+      "artist": "The Rolling Stones",
+      "year": 1971,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "89",
+      "title": "In the Wee Small Hours",
+      "artist": "Frank Sinatra",
+      "year": 1955,
+      "available": true,
+      "genre": "Jazz"
+    },
+    {
+      "id": "90",
+      "title": "The Bends",
+      "artist": "Radiohead",
+      "year": 1995,
+      "available": true,
+      "genre": "Alternative Rock"
+    },
+    {
+      "id": "91",
+      "title": "Songs in the Key of Life",
+      "artist": "Stevie Wonder",
+      "year": 1976,
+      "available": true,
+      "genre": "R&B"
+    },
+    {
+      "id": "92",
+      "title": "Harvest",
+      "artist": "Neil Young",
+      "year": 1972,
+      "available": true,
+      "genre": "Folk"
+    },
+    {
+      "id": "93",
+      "title": "Disintegration",
+      "artist": "The Cure",
+      "year": 1989,
+      "available": true,
+      "genre": "Gothic Rock"
+    },
+    {
+      "id": "94",
+      "title": "Aftermath",
+      "artist": "The Rolling Stones",
+      "year": 1966,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "95",
+      "title": "Hotel California",
+      "artist": "Eagles",
+      "year": 1976,
+      "available": true,
+      "genre": "Rock"
+    },
+    {
+      "id": "96",
+      "title": "It Takes a Nation of Millions to Hold Us Back",
+      "artist": "Public Enemy",
+      "year": 1988,
+      "available": true,
+      "genre": "Hip Hop"
+    },
+    {
+      "id": "97",
+      "title": "Straight Outta Compton",
+      "artist": "N.W.A",
+      "year": 1988,
+      "available": true,
+      "genre": "Hip Hop"
+    },
+    {
+      "id": "98",
+      "title": "The Black Album",
+      "artist": "Jay-Z",
+      "year": 2003,
+      "available": true,
+      "genre": "Hip Hop"
+    },
+    {
+      "id": "99",
+      "title": "Kid A",
+      "artist": "Radiohead",
+      "year": 2000,
+      "available": true,
+      "genre": "Alternative Rock"
+    },
+    {
+      "id": "100",
+      "title": "Led Zeppelin",
+      "artist": "Led Zeppelin",
+      "year": 1969,
+      "available": true,
+      "genre": "Rock"
+    }
+  ]
+}
