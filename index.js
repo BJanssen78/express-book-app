@@ -2,7 +2,6 @@ import * as Sentry from "@sentry/node";
 import { ProfilingIntegration } from "@sentry/profiling-node";
 import express from "express";
 
-// import morgan from "morgan";
 import booksRouter from "./routes/books.js";
 import recordsRouter from "./routes/record.js";
 import loginRouter from "./routes/login.js";
@@ -50,11 +49,6 @@ app.get("/debug-sentry", function mainHandler(req, res) {
 
 app.use(express.json());
 app.use(log);
-// app.use(
-//   morgan(
-//     "IP adress: :remote-addr - Method: :method - URL: :url - HTTP Version: :http-version - Status: :status - Responce Content Length: :res[content-length] - Date: [:date[web]] - Referrer: :referrer - User Agent: :user-agent - Response Time: :response-time ms"
-//   )
-// );
 
 app.use("/books", booksRouter);
 app.use("/records", recordsRouter);

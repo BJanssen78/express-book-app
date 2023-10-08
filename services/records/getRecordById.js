@@ -1,7 +1,13 @@
 import recordData from "../../data/records.json" assert { type: "json" };
+import NotFoundError from "../../errors/NotFoundError.js";
 
 const getRecordById = (id) => {
-  return recordData.records.find((record) => record.id === id);
+  const record = recordData.records.find((record) => record.id === id);
+
+  if (!record) {
+    throw new NotFoundError("Book", id);
+  }
+  return record;
 };
 
 export default getRecordById;

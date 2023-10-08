@@ -16,3 +16,13 @@
 {"level":"info","message":"POST /books. Status: 403. Duration: 1 ms","service":"bookstore-api"}
 {"level":"info","message":"POST /books. Status: 500. Duration: 10 ms","service":"bookstore-api"}
 {"level":"info","message":"POST /books. Status: 201. Duration: 8 ms","service":"bookstore-api"}
+{"level":"info","message":"POST /books. Status: 500. Duration: 10 ms","service":"bookstore-api"}
+{"level":"info","message":"POST /books. Status: 200. Duration: 45 ms","service":"bookstore-api"}
+{"level":"info","message":"POST /books. Status: 200. Duration: 49 ms","service":"bookstore-api"}
+{"level":"info","message":"GET /books/1000. Status: 500. Duration: 3 ms","service":"bookstore-api"}
+{"level":"info","message":"GET /books. Status: 400. Duration: 1 ms","service":"bookstore-api"}
+{"level":"info","message":"GET /favicon.ico. Status: 200. Duration: 0 ms","service":"bookstore-api"}
+{"level":"info","message":"GET /books/1000. Status: 400. Duration: 1 ms","service":"bookstore-api"}
+{"level":"info","message":"GET /books/1000. Status: 500. Duration: 10 ms","service":"bookstore-api"}
+{"level":"info","message":"GET /books/1000. Status: 500. Duration: 8 ms","service":"bookstore-api"}
+{"level":"info","message":"GET /books/1000. Status: 500. Duration: 3 ms","service":"bookstore-api"}
