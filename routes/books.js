@@ -19,19 +19,23 @@ const booksRouter = express.Router();
 
 // booksRouter.use(checkHeader);
 
-booksRouter.get("/", (req, res) => {
+booksRouter.get("/", async (req, res) => {
   const { genre, available } = req.query;
-  const books = getBooks(genre, available);
+  const books = await getBooks(genre, available);
   res.status(200).json(books);
 });
 
 booksRouter.get(
   "/:id",
-  (req, res) => {
-    const { id } = req.params;
-    const book = getBookById(id);
+  async (req, res, next) => {
+    try {
+      const { id } = req.params;
+      const book = await getBookById(id);
 
-    res.status(200).json(book);
+      res.status(200).json(book);
+    } catch (error) {
+      next(error);
+    }
   },
   NotFoundError
 );
