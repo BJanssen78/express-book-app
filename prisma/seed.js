@@ -2,6 +2,7 @@ import { PrismaClient } from "@prisma/client";
 import bookData from "../data/books.json" assert { type: "json" };
 import userData from "../data/users.json" assert { type: "json" };
 import orderData from "../data/orders.json" assert { type: "json" };
+import recordData from "../data/records.json" assert { type: "json" };
 
 const prisma = new PrismaClient({ log: ["query", "info", "warn", "error"] });
 
@@ -9,6 +10,7 @@ async function main() {
   const { books } = bookData;
   const { users } = userData;
   const { orders } = orderData;
+  const { records } = recordData;
   console.log(orders);
 
   for (const book of books) {
@@ -23,6 +25,14 @@ async function main() {
       where: { id: user.id },
       update: {},
       create: user,
+    });
+  }
+
+  for (const record of records) {
+    await prisma.record.upsert({
+      where: { id: record.id },
+      update: {},
+      create: record,
     });
   }
 

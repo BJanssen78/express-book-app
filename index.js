@@ -1,7 +1,7 @@
 import * as Sentry from "@sentry/node";
 import { ProfilingIntegration } from "@sentry/profiling-node";
 import express from "express";
-
+import userRouter from "./routes/users.js";
 import booksRouter from "./routes/books.js";
 import recordsRouter from "./routes/record.js";
 import loginRouter from "./routes/login.js";
@@ -53,6 +53,7 @@ app.use(log);
 app.use("/books", booksRouter);
 app.use("/records", recordsRouter);
 app.use("/login", loginRouter);
+app.use("/users", userRouter);
 
 app.get("/", (req, res) => {
   res.send("Hello World!, it's dark outside");

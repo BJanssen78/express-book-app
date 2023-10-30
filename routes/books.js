@@ -4,7 +4,7 @@ import getBookById from "../services/books/getBookById.js";
 import createBook from "../services/books/createBook.js";
 import updateBookById from "../services/books/updateBookById.js";
 import deleteBook from "../services/books/deleteBook.js";
-import authMiddleware from "../middleware/advancedAuth.js";
+import authMiddleware from "../middleware/auth.js";
 import NotFoundError from "../errors/NotFoundError.js";
 
 const booksRouter = express.Router();
@@ -46,29 +46,41 @@ booksRouter.post("/", authMiddleware, (req, res) => {
   res.status(201).json(newBook);
 });
 
-booksRouter.put("/:id", authMiddleware, (req, res) => {
-  const { id } = req.params;
-  const { title, author, isbn, pages, available, genre } = req.body;
-  const updatedBook = updateBookById(
-    id,
-    title,
-    author,
-    isbn,
-    pages,
-    available,
-    genre
-  );
-  res.status(200).json(updatedBook);
-  NotFoundError;
-});
+booksRouter.put(
+  "/:id",
+  authMiddleware,
+  async (req, res, next) => {
+    try {
+      const { id } = req.params;
+      const { title, author, isbn, pages, available, genre } = req.body;
+      const updatedBook = await updateBookById(
+        id,
+        title,
+        author,
+        isbn,
+        pages,
+        available,
+        genre
+      );
+      res.status(200).json(updatedBook);
+    } catch (error) {
+      next(error);
+    }
+  },
+  NotFoundError
+);
 
-booksRouter.delete("/:id", authMiddleware, (req, res) => {
-  const { id } = req.params;
-  const deletedBookId = deleteBook(id);
+booksRouter.delete("/:id", authMiddleware, async (req, res, next) => {
+  try {
+    const { id } = req.params;
+    const deletedBookId = deleteBook(id);
 
-  res.status(200).json({
-    message: `Book with id ${deletedBookId} was deleted!`,
-  });
+    res.status(200).json({
+      message: `Book with id ${deletedBookId} was deleted!`,
+    });
+  } catch (error) {
+    next(error);
+  }
 });
 
 export default booksRouter;
